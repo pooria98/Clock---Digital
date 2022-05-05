@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #313138, #151515);
+    min-height: 100vh;
+    color: #00d33f;
+    font-size: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span {
+    margin: 0 1rem;
+    text-shadow: 1px 1px 0 black;
+}
+
+.time {
+    color: dodgerblue;
+}
+
+@media screen and (max-width: 540px) {
+    body {
+        font-size: 3rem;
+    }
+    span {
+        margin: 0 0.2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        font-size: 2rem;
+    }
+    span {
+        margin: 0 0.2rem;
+    }
+}
